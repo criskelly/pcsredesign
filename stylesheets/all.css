@@ -6332,81 +6332,131 @@ h1 {
     padding-top: 3%;
     font-size: 2.3em; }
 
+/* line 37, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+h2, h3, h4, h5, h6, p {
+  margin-bottom: 30px; }
+
+/* ===BOOTSTRAP CUSTOMIZATIONS=== */
 /* ===BROWN W/ YELLOW TEXT HEADER/FOOTER=== */
-/* line 38, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* ===LIGHT BLUE W/ BROWN TEXT HEADER/FOOTER=== */
+/* ===BROWN W/ LIGHT BLUE TEXT HEADER/FOOTER=== */
+/* line 88, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 header, footer {
   text-align: center; }
-  /* line 40, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 90, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   header.navbar, footer.navbar {
     border-radius: 0px;
     margin-bottom: 0px; }
-  /* line 44, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 94, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   header.navbar-default, footer.navbar-default {
-    color: #d5b724;
+    color: #b8ded4;
     background-color: #4c413c;
     border-color: #4c413c; }
-  /* line 49, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 99, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   header a, footer a {
-    color: #d5b724;
+    color: #b8ded4;
     text-decoration: none; }
-    /* line 52, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    /* line 102, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
     header a:hover, footer a:hover {
       color: #63918e;
       text-decoration: none; }
 
-/* ===LIGHT BLUE W/ BROWN TEXT HEADER/FOOTER=== */
-/* line 81, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 109, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .btn {
   font-size: 18px; }
 
-/* line 85, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 113, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.grid-container {
+  padding: 0 15px; }
+
+/* line 117, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .row {
   max-width: 1350px;
-  margin-right: auto;
-  margin-left: auto; }
+  margin: 15px auto; }
 
-/* line 91, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.apply-button {
-  border-color: #eb231c;
-  background-color: #eb231c;
-  width: 75%;
-  max-width: 230px;
-  min-width: 175px; }
-  /* line 97, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-  .apply-button:hover {
-    color: #63918e;
-    background-color: #63918e; }
-  /* line 101, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-  .apply-button a {
-    color: #FFF; }
-    /* line 103, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-    .apply-button a:hover {
-      color: #FFF; }
-
-/* line 109, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 122, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .thumbnail {
   border: none; }
 
-/* line 113, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.row {
-  margin-top: 15px;
-  margin-bottom: 15px; }
+@media (max-width: 767px) {
+  /* line 127, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  .visible-xs {
+    display: inline !important; } }
+/* ===CUSTOM CLASSES=== */
+/* line 135, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+h3.thanks {
+  margin-bottom: 5px; }
 
-/* line 118, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 140, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.apply-button {
+  border-color: #eb231c;
+  background-color: #eb231c;
+  width: 140px; }
+  /* line 144, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  .apply-button:hover {
+    color: white;
+    background-color: #63918e; }
+  /* line 148, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  .apply-button a {
+    color: white; }
+    /* line 150, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    .apply-button a:hover {
+      color: white;
+      text-decoration: none; }
+
+/* line 157, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.circle {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #63918e; }
+
+/* line 164, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .icon-spacing {
   margin-right: 2%;
   margin-left: 2%; }
 
-/* line 123, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.header-margin {
-  margin-top: 1%;
-  margin-bottom: 1%; }
-
-/* line 128, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.grid-container {
-  padding: 0 15px; }
-
-/* line 132, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 169, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .page-padding {
-  padding-top: 3%;
   padding-bottom: 3%; }
+
+/* FAQ PAGE styles ============= */
+/* line 175, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.question a {
+  color: #403f45;
+  text-decoration: underline; }
+
+/* line 179, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.answer {
+  height: 100px; }
+
+/* line 182, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.long-answer {
+  height: 200px; }
+
+/* line 185, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.longer-answer {
+  height: 300px; }
+
+/* line 188, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+element.style {
+  display: none; }
+
+/* line 192, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.answer {
+  height: 100px; }
+
+/* line 196, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+#faq .question {
+  margin-bottom: 30px; }
+  /* line 198, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  #faq .question p:nth-child(1) {
+    margin-bottom: .5em; }
+
+/* line 203, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.hide {
+  display: none; }
+
+/* line 207, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.show {
+  display: block; }
