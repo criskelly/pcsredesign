@@ -6420,43 +6420,11 @@ h3.thanks {
 .page-padding {
   padding-bottom: 3%; }
 
+/* line 173, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
 /* FAQ PAGE styles ============= */
-/* line 175, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.question a {
-  color: #403f45;
-  text-decoration: underline; }
-
-/* line 179, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.answer {
-  height: 100px; }
-
-/* line 182, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.long-answer {
-  height: 200px; }
-
-/* line 185, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.longer-answer {
-  height: 300px; }
-
-/* line 188, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-element.style {
-  display: none; }
-
-/* line 192, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.answer {
-  height: 100px; }
-
-/* line 196, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-#faq .question {
-  margin-bottom: 30px; }
-  /* line 198, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-  #faq .question p:nth-child(1) {
-    margin-bottom: .5em; }
-
-/* line 203, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.hide {
-  display: none; }
-
-/* line 207, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.show {
-  display: block; }
