@@ -13,59 +13,102 @@
     </title>
     
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
-    
+<link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery.js" type="text/javascript"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="javascripts/all.js" type="text/javascript"></script>
+
+
   </head>
   
   <body class="thanks">
+
     
-    <div class="">
-
-      <header class="navbar navbar-default">
+<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <!-- Navigation links -->
   <div class="row">
-
-    <!-- PCS logo -->
-    <div class="col-sm-2 col-xs-5">
-      <a href="./">
-        <img alt="" width="120" height="59" src="images/logo-lt-teal.png" />
+    <div class="navbar-header col-xs-9 col-sm-4" id="logo">
+      <!-- PCS logo -->
+      <a class="navbar-brand" href="./">
+        <img alt="" width="450" height="205" src="images/logo-lt-teal.png" />
       </a>
     </div>
 
-    <!-- Central text -->
-    <div class="col-md-7 hidden-sm hidden-xs">
-      <h1 class="large-title">Portland Code School</h1>
-    </div>
-
-    <div class="col-sm-7 visible-sm">
-      <h1 class="small-title">Portland Code School</h1>
-    </div>
-
-    <!-- Social media/Apply buttons -->
-    <div class="col-sm-3 col-xs-7">
-
-      <!-- Social media buttons -->
-      <div class="navbar-stacked">
-        <a href="http://github.com/portlandcodeschool"><i class="fa fa-github-square fa-2x"></i></a>
-        <a href="http://twitter.com/pdxcodeschool"><i class="fa fa-twitter-square fa-2x"></i></a>
-        <a href="https://www.facebook.com/PortlandCodeSchool"><i class="fa fa-facebook-square fa-2x"></i></a>
-        <a href="https://plus.google.com/communities/109115545781652920966"><i class="fa fa-google-plus-square fa-2x"></i></a>
-      </div>
-
+    <div class="col-xs-3">
       <!-- Apply button -->
+      <div class="visible-xs navbar-stacked">
+        <button type="button" class="btn btn-default navbar-btn apply-button pull-right">
+          <a href="getinfo.html">Get Info!</a>
+        </button>
+      </div>
+    
+      <!-- Menu button -->
       <div class="navbar-stacked">
-        <button type="button" class="btn btn-default navbar-btn apply-button">
-          <a href="apply.html">Apply now!</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
       </div>
     </div>
+  <!-- </div> -->
 
+
+  <!-- <div class="row"> -->
+<!-- Content that will toggle -->
+    <div class="collapse navbar-collapse">
+      <div class="col-xs-12 col-sm-8">
+        <ul class="nav navbar-nav nav-pills pull-right">
+          <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="about.html">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="about.html">About</a>
+              </li>
+              <li>
+                <a href="faq.html">FAQ</a>
+              </li>
+              <li>
+                <a href="calendar.html">Calendar</a>
+              </li>
+              <li>
+                <a href="siteabout.html">About This Site</a>
+              </li>
+              <li>
+                <a href="thanks.html">Special Thanks</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a data-toggle="dropdown" class="dropdown-toggle" href="classes.html">Attending <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="classes.html">Classes</a>
+              </li>
+              <li>
+                <a href="perks.html">Student Benefits</a>
+              </li>
+              <li>
+                <a href="childcare.html">Childcare</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <button type="button" class="btn btn-default navbar-btn apply-button hidden-xs">
+              <a href="getinfo.html">Get Info!</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div><!--/.nav-collapse-->
   </div>
 </header>
-
-<div class="row"></div>
-      <!-- <div class="break"></div> -->
-      <div class="container grid-container">
-
+    <div class="container">
 
         <h2>Special Thanks</h2>
 
@@ -93,24 +136,6 @@
   Omid was the first financial backer, and the first business analyst to help us on our path. He was there to give us seed money to get started, and he was there to make sure we were on track to be off of investment funds as soon as possible. And even above that, he's dealt with all the legal paperwork to get the program running.
 </p>
 
-<h3 class="thanks">Bill Siebold</h3>
-<p>
-  <strong>Art Institute</strong><br>
-  Bill was a constant source of inspiration and sound judgement for us in the formation of the program. His experience in tech education and his drive to see the program succeed was unendingly inspiring and helpful. He was the initial sounding board, and the voice of reason, when there were so many voices to listen to.
-</p>
-
-<h3 class="thanks">Hal Newton</h3>
-<p>
-  <strong>PageMutant / WholeBrain</strong><br>
-  Hal was a godsend at the late stages of the first session by helping us coordinate and understand how to talk to CTOs and VPs at organizations that need to find great people. His words of wisdom, his network of peers, and his gentle guidance were brought to bear at exactly the right time.
-</p>
-
-<h3 class="thanks">Marc Charbonneau, Patrick Curtain, Victor Christensen</h3>
-<p>
-  <strong>Burnside Digital</strong><br>
-  Everyone at Burnside Digital was amazing, but these people stepped forward frequently and helped us through jams with either sweat or brainpower. One person can only do so much.
-</p>
-
 <h3 class="thanks">Pete Kinnecom, Rachel Sakry, Matt Danskey</h3>
 <p>
   <strong>Portland Code School</strong><br>
@@ -123,16 +148,18 @@
 <ul>
   <li>Nathan Calies</li>
   <li>Dave Shanley, Ben Cullen-Kerney, Kristina Turney, & Kevin Steigerwald - Crowd Compass</li>
+  <li>Marc Charbonneau, Patrick Curtain, Victor Christensen - Burnside Digital</li>
   <li>Lorenzo Ciacci - The Clymb</li>
   <li>Luc Perkins - AppFog</li>
   <li>Jewel Mlnarik - Temboo</li>
   <li>Jade Rubick - New Relic</li>
   <li>Randall Hansen - Puppet Labs</li>
+  <li>Bill Siebold - Art Institute</li>
+  <li>Hal Newton - PageMutant / WholeBrain</li>
 </ul>
 
 
-      </div>
-      
+    </div>
       <div class="row"></div>
 
 <footer class="navbar navbar-default">
@@ -140,27 +167,33 @@
 
     <!-- Contact info/link -->
     <div class="col-sm-4 hidden-xs">
-      <p><a href="contact.html">Contact Us</a></p>
-      <p>503-880-3551</p>
-      <p><a href="mailto:ckelly@portlandcodeschool.com">ckelly@portlandcodeschool.com</a></p>
+      <p>
+        <strong>
+          <a href="contact.html">Contact Us</a>
+        </strong><br>
+        1771 NW Pettygrove Street, Suite #140<br>
+        Portland, OR 97209
+      </p>
     </div>
 
-    <!-- Page links -->
-    <div class="col-sm-4 page-padding">
-      <a href="classes.html">Classes</a> | 
-      <a href="calendar.html">Calendar</a> | 
-      <a href="about.html">About</a>
-      <a class="visible-xs" href="contact.html"> | Contact Us</a>
+    <!-- Social media buttons -->
+    <div class="col-sm-4">
+      <p>
+        <a class="icon-spacing" href="http://github.com/portlandcodeschool"><i class="fa fa-github-square fa-2x"></i></a>
+        <a class="icon-spacing" href="http://twitter.com/pdxcodeschool"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a class="icon-spacing" href="https://www.facebook.com/PortlandCodeSchool"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a class="icon-spacing" href="https://plus.google.com/communities/109115545781652920966"><i class="fa fa-google-plus-square fa-2x"></i></a>
+      </p>
     </div>
 
     <!-- Partners links -->
     <div class="col-sm-4">
       <div class="navbar-stacked">
-        <p>Partners</p>
+        <strong>Partners</strong>
       </div>
       <div class="navbar-stacked">
         <a class="icon-spacing" href="http://vitamintalent.com/">
-          <img alt="" width="50" height="50" src="images/partners/vitamin-logo.png" />
+          <img alt="" width="50" height="50" src="images/partners/vitamin-logo.png" /> 
         </a>
 
         <a class="icon-spacing" href="http://www.corsource.com/">
@@ -175,6 +208,7 @@
 
   </div>
 </footer>
-    </div>
+    
+
   </body>
 </html>

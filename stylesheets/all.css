@@ -6315,116 +6315,160 @@ body {
   font-family: 'Exo 2', 'sans-serif';
   font-size: 18px;
   line-height: 1.6em;
-  color: #4c413c; }
+  color: #4c413c;
+  padding-top: 150px; }
 
-/* line 22, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 23, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 h1 {
   font-family: 'Exo 2', 'sans-serif';
   font-weight: 600;
   font-style: italic;
   margin-top: 1%;
   margin-bottom: 3%; }
-  /* line 28, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 29, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   h1.large-title {
     font-size: 3em; }
-  /* line 31, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 32, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   h1.small-title {
     padding-top: 3%;
     font-size: 2.3em; }
 
-/* line 37, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 38, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 h2, h3, h4, h5, h6, p {
   margin-bottom: 30px; }
 
-/* ===BOOTSTRAP CUSTOMIZATIONS=== */
-/* ===BROWN W/ YELLOW TEXT HEADER/FOOTER=== */
-/* ===LIGHT BLUE W/ BROWN TEXT HEADER/FOOTER=== */
-/* ===BROWN W/ LIGHT BLUE TEXT HEADER/FOOTER=== */
-/* line 88, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* ===HEADER/FOOTER=== */
+/* line 43, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 header, footer {
   text-align: center; }
-  /* line 90, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-  header.navbar, footer.navbar {
+  /* line 45, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  header.navbar, header.navbar-fixed-top, header.navbar-default, footer.navbar, footer.navbar-fixed-top, footer.navbar-default {
     border-radius: 0px;
-    margin-bottom: 0px; }
-  /* line 94, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-  header.navbar-default, footer.navbar-default {
+    margin-bottom: 0px;
     color: #b8ded4;
     background-color: #4c413c;
     border-color: #4c413c; }
-  /* line 99, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 52, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  header.navbar-default .navbar-nav li a, footer.navbar-default .navbar-nav li a {
+    color: #63918e; }
+    /* line 54, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    header.navbar-default .navbar-nav li a:hover, footer.navbar-default .navbar-nav li a:hover {
+      color: #63918e; }
+    /* line 57, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    header.navbar-default .navbar-nav li a:visited, footer.navbar-default .navbar-nav li a:visited {
+      color: #63918e; }
+  /* line 61, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   header a, footer a {
     color: #b8ded4;
     text-decoration: none; }
-    /* line 102, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    /* line 64, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
     header a:hover, footer a:hover {
       color: #63918e;
       text-decoration: none; }
+  /* line 69, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  header.navbar-default .navbar-nav li .apply-button a, footer.navbar-default .navbar-nav li .apply-button a {
+    color: white; }
+    /* line 71, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    header.navbar-default .navbar-nav li .apply-button a:hover, footer.navbar-default .navbar-nav li .apply-button a:hover {
+      color: white; }
+  /* line 75, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  header.thumbnail, footer.thumbnail {
+    background-color: #4c413c;
+    margin-bottom: 0px; }
+  /* line 79, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  header.navbar-btn, footer.navbar-btn {
+    margin-top: 20px; }
 
-/* line 109, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* ===BOOTSTRAP CUSTOMIZATIONS=== */
+/* line 86, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .btn {
   font-size: 18px; }
 
-/* line 113, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.grid-container {
-  padding: 0 15px; }
-
-/* line 117, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 90, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .row {
   max-width: 1350px;
   margin: 15px auto; }
 
-/* line 122, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.thumbnail {
-  border: none; }
+/* line 96, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+#logo img {
+  height: 61px;
+  width: 135px; }
 
-@media (max-width: 767px) {
-  /* line 127, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-  .visible-xs {
-    display: inline !important; } }
+/* line 102, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.thumbnail {
+  border: none;
+  background-color: #63918e; }
+
+/* line 107, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.navbar-right {
+  padding-top: 10px;
+  padding-right: 2%; }
+
 /* ===CUSTOM CLASSES=== */
-/* line 135, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 115, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 h3.thanks {
   margin-bottom: 5px; }
 
-/* line 140, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 120, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.class:before {
+  display: block;
+  content: " ";
+  margin-top: -350px;
+  height: 350px;
+  visibility: hidden; }
+
+/* line 128, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .apply-button {
   border-color: #eb231c;
   background-color: #eb231c;
-  width: 140px; }
-  /* line 144, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  width: 100px; }
+  /* line 132, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   .apply-button:hover {
     color: white;
     background-color: #63918e; }
-  /* line 148, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 136, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   .apply-button a {
     color: white; }
-    /* line 150, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    /* line 138, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
     .apply-button a:hover {
       color: white;
       text-decoration: none; }
 
-/* line 157, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 145, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .circle {
   border-radius: 50%;
   border-style: solid;
   border-width: 4px;
   border-color: #63918e; }
 
-/* line 164, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 152, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .icon-spacing {
   margin-right: 2%;
   margin-left: 2%; }
 
-/* line 169, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 157, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .page-padding {
   padding-bottom: 3%; }
 
-/* line 173, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 161, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .centered {
+  float: left;
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center; }
 
-/* FAQ PAGE styles ============= */
+/* line 169, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.google-embed {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden; }
+
+/* line 176, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.google-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important; }
