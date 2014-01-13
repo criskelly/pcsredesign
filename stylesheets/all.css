@@ -6310,7 +6310,7 @@ td.visible-print {
     display: none !important; } }
 /* ===COLOR PALETTE== */
 /* ===MAIN STYLES=== */
-/* line 15, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 17, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 body {
   font-family: 'Exo 2', 'sans-serif';
   font-size: 18px;
@@ -6318,84 +6318,82 @@ body {
   color: #4c413c;
   padding-top: 70px; }
 
-/* line 23, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 25, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 h1 {
   font-family: 'Exo 2', 'sans-serif';
   font-weight: 600;
   font-style: italic;
   margin-top: 1%;
   margin-bottom: 3%; }
-  /* line 29, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 31, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   h1.large-title {
     font-size: 3em; }
-  /* line 32, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 34, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   h1.small-title {
     padding-top: 3%;
     font-size: 2.3em; }
 
-/* line 38, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 40, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 h2, h3, h4, h5, h6, p {
   margin-bottom: 30px; }
 
 /* ===HEADER/FOOTER=== */
-/* line 43, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 45, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 header, footer {
   text-align: center; }
-  /* line 45, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 47, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   header.navbar, header.navbar-fixed-top, header.navbar-default, footer.navbar, footer.navbar-fixed-top, footer.navbar-default {
     border-radius: 0px;
     margin-bottom: 0px;
     color: #b8ded4;
     background-color: #4c413c;
     border-color: #4c413c; }
-  /* line 52, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-  header.navbar-fixed-top, footer.navbar-fixed-top {
-    max-height: 56px; }
-  /* line 55, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 54, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   header.navbar-default .navbar-nav li a, footer.navbar-default .navbar-nav li a {
     color: #63918e; }
-    /* line 57, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-    header.navbar-default .navbar-nav li a:hover, footer.navbar-default .navbar-nav li a:hover {
+    /* line 56, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    header.navbar-default .navbar-nav li a:hover, header.navbar-default .navbar-nav li a:visited, footer.navbar-default .navbar-nav li a:hover, footer.navbar-default .navbar-nav li a:visited {
       color: #63918e; }
-    /* line 60, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-    header.navbar-default .navbar-nav li a:visited, footer.navbar-default .navbar-nav li a:visited {
-      color: #63918e; }
-  /* line 64, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 60, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   header a, footer a {
     color: #b8ded4;
     text-decoration: none; }
-    /* line 67, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    /* line 63, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
     header a:hover, footer a:hover {
       color: #63918e;
       text-decoration: none; }
-  /* line 72, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 68, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   header.navbar-default .navbar-nav li .apply-button a, footer.navbar-default .navbar-nav li .apply-button a {
     color: white; }
-    /* line 74, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    /* line 70, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
     header.navbar-default .navbar-nav li .apply-button a:hover, footer.navbar-default .navbar-nav li .apply-button a:hover {
       color: white; }
-  /* line 78, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 74, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   header.thumbnail, footer.thumbnail {
     background-color: #4c413c;
     margin-bottom: 0px; }
-  /* line 82, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 78, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   header.navbar-btn, footer.navbar-btn {
     margin-top: 20px; }
+  /* line 81, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  header button.navbar-toggle, footer button.navbar-toggle {
+    margin-right: 0px; }
 
 /* ===BOOTSTRAP CUSTOMIZATIONS=== */
-/* line 89, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 88, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .btn {
   font-size: 18px; }
 
-/* line 93, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.row {
-  max-width: 1350px;
-  margin: 15px auto; }
-
-/* line 98, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 92, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .logo {
   max-height: 47px;
   max-width: 103px; }
+
+/* line 97, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+.row {
+  max-width: 1350px;
+  margin-right: 5px;
+  margin-left: 5px; }
 
 /* line 103, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .thumbnail {
@@ -6404,19 +6402,14 @@ header, footer {
 
 /* line 108, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .navbar-right {
-  padding-top: 10px;
   padding-right: 2%; }
 
-/* line 114, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
-.nav-pills li {
-  float: none; }
-
 /* ===CUSTOM CLASSES=== */
-/* line 122, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 115, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 h3.thanks {
   margin-bottom: 5px; }
 
-/* line 127, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 120, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .class:before {
   display: block;
   content: " ";
@@ -6424,40 +6417,40 @@ h3.thanks {
   height: 270px;
   visibility: hidden; }
 
-/* line 135, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 128, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .apply-button {
   border-color: #eb231c;
   background-color: #eb231c;
   width: 100px; }
-  /* line 139, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 132, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   .apply-button:hover {
     color: white;
     background-color: #63918e; }
-  /* line 143, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+  /* line 136, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
   .apply-button a {
     color: white; }
-    /* line 145, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+    /* line 138, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
     .apply-button a:hover {
       color: white;
       text-decoration: none; }
 
-/* line 152, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 145, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .circle {
   border-radius: 50%;
   border-style: solid;
   border-width: 4px;
   border-color: #63918e; }
 
-/* line 159, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 152, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .icon-spacing {
-  margin-right: 2%;
-  margin-left: 2%; }
+  margin-right: 10px;
+  margin-left: 10px; }
 
-/* line 164, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 157, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .page-padding {
   padding-bottom: 3%; }
 
-/* line 168, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 161, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .centered {
   float: left;
   display: block;
@@ -6465,14 +6458,14 @@ h3.thanks {
   margin-right: auto;
   text-align: center; }
 
-/* line 176, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 169, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .google-embed {
   position: relative;
   padding-bottom: 75%;
   height: 0;
   overflow: hidden; }
 
-/* line 183, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
+/* line 176, /Users/shawnacscott/Code/pcs_redesign/source/stylesheets/all.css.scss */
 .google-embed iframe {
   position: absolute;
   top: 0;
